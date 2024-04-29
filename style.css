@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding-top: 0.1px;
+}
+
+nav {
+    width: 100%;
+    height: 13vh;
+    margin-top: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+nav h1 {
+    font-size: 2vw;
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monument;
+    letter-spacing: -3px;
+
+
+
+}
+
+nav h2 {
+    font-size: 1.1vw;
+    width: 15vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-right: 2px solid black;
+}
+
+nav h2:nth-last-child(1) {
+    width: 10vw;
+}
+
+nav h2:nth-last-child(2) {
+    width: 20vw;
+}
+
+#center {
+    height: 80vh;
+    width: 100%;
+    padding: 2vw;
+position: relative;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#content video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+#overlay{
+    height: 50%;
+width: 100%;
+position: absolute;
+bottom: 0;
+color: aliceblue;
+padding: 2vw;
+}
+
+#over1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1vw;
+}
+#over1 h2{
+    font-weight: 800;
+    font-size: 4vw;
+}
+#over1 h4{
+    font-size: 1.2vvw;
+}
+
+#over2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 2vw;
+border-top: 2px solid white;
+}
+
+#over2 h2{
+    font-weight: 400;
+    font-size: 1.3vw;
+}
+#over2 img{
+    width: 2vw;
+}
+
+#scroll{
+    height: 35vh;
+    width: 100%;
+white-space: nowrap;
+overflow-x: hidden;
+overflow-y: hidden;
+padding-inline: 2vw;
+
+}
+
+.imgcontainer{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+.imgcontainer img {
+    width: 13%;
+    height: 60%;
+    border-radius: 50%;
+    object-fit: cover;
+margin: 2vw;
+}
+
+.img1 {
+    object-position: top;
+}
+
+
+@keyframes anime {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translate(-100%);
+    }
+}
