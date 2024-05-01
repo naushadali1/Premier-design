@@ -1,0 +1,206 @@
+@media (max-width:600px) {
+    
+nav {
+    height: 10vh;
+    margin-top: 2vw;
+   padding: 2vw;
+}
+
+nav h1 {
+    font-size: 5vw;
+    justify-content: flex-start;
+    
+}
+
+nav h1::before {
+    display: none;
+}
+nav h1::after {
+    display: none;
+}
+
+nav h2 {
+    display: none;
+}
+
+nav h3 {
+    display: block;
+}
+
+
+#center {
+    height: 50vh;
+}
+
+#over1 h2{
+    font-size: 6vw;
+}
+#over1 h4{
+    font-size: 2.2vvw;
+}
+
+#over2 h2{
+    font-size: 2.3vw;
+}
+
+#over2 img{
+    width: 5vw;
+}
+
+
+
+#scroll{
+    height: fit-content;
+
+}
+
+.imgcontainer img {
+    width: 13%;
+    height: 20%;   
+}
+
+
+#alphabet {
+    height: 8vh;
+    width: 100%;
+}
+
+#alphabet h5 {
+    font-size: 6vw;
+    margin-right: 2vw;
+}
+#alphabet h6 {
+    font-size: 2.5vw;
+    margin-inline: .5vw;
+}
+
+
+#page2 {
+    width: 100%;
+    flex-direction: column;
+    padding: 2vw;
+}
+
+#part1{
+    height: 40%;
+    width: 100%;
+}
+
+#part1 h2 {
+    font-size: 5.6vw;
+    bottom: -21%;
+    right: 30%;
+}
+
+#part2{
+    height: 50%;
+    width: 90%;
+}
+
+#text-h{
+    padding: 1vw 1vw ;
+ 
+}
+
+#ph1 h3 {
+    font-size: 4vw;
+}
+
+#ph2 p{
+    font-size: 2.2vw;
+}
+
+
+#page3 {
+    width: 100%;
+    height: 100%;
+   flex-direction: column;
+    padding: 1vw;
+}
+
+#pt1 {
+    height: 100%;
+    width: 90%;
+}
+
+#pt1 img {
+    width: 100%;
+    height: 90%;
+}
+#pt1 h3 {
+    font-size: 3.7vw;
+    margin: -4vw 0vw;
+}
+
+#pt2 {
+    height: 40%;
+    width: 70%;
+}
+
+#pt2 img {
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+#page5 {
+    height: fit-content;
+    padding: 3vw 0vw;
+}
+
+#page5 h2 {
+    font-size: 7vw;
+font-weight: 400;
+    }
+
+.elem {
+    width: 100%;
+height: 9vh;
+padding: .2vw 2vw;
+
+}
+
+.elem h3{
+    font-size: 3.6vw;
+    width: 6%;
+}
+
+.htext {
+    width: 50%;
+
+}
+
+.htext h1 {
+    font-size: 4vw;
+}
+.htext h5 {
+    font-size: 2vw;
+
+}
+.elem img {
+    width: 12vw;
+    height: 12vw;
+}
+
+
+#page6{
+  height: 15vw;
+    }
+
+#mtext{
+    height: 13vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+#mtext h1 {
+    font-size: 6vw;
+
+}
+
+
+
+}

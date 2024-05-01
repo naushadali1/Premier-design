@@ -79,6 +79,10 @@ nav h2:nth-last-child(2) {
     width: 20vw;
 }
 
+nav h3 {
+    display: none;
+}
+
 #center {
     height: 80vh;
     width: 100%;
@@ -100,7 +104,7 @@ position: relative;
 }
 
 #overlay{
-    height: 50%;
+    height: fit-content;
 width: 100%;
 position: absolute;
 bottom: 0;
